@@ -41,7 +41,7 @@ class ViewController: UIViewController {
                 goSignalView
             ]
             
-            signalViews.forEach { $0?.alpha = 0.4 }
+            signalViews.forEach { $0?.alpha = 0.3 }
             signalView.alpha = 1
             
             if signalView == redSignalView {

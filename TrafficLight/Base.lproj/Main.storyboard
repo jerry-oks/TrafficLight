@@ -23,7 +23,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="2ha-fZ-stc">
                                         <rect key="frame" x="130.66666666666666" y="0.0" width="100" height="332"/>
                                         <subviews>
-                                            <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgf-fL-kjo">
+                                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgf-fL-kjo">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <constraints>
@@ -31,7 +31,7 @@
                                                     <constraint firstAttribute="width" constant="100" id="LKa-Ad-P9n"/>
                                                 </constraints>
                                             </view>
-                                            <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dnl-7w-wUf">
+                                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dnl-7w-wUf">
                                                 <rect key="frame" x="0.0" y="116" width="100" height="100"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -39,7 +39,7 @@
                                                     <constraint firstAttribute="width" constant="100" id="fgX-Jw-b44"/>
                                                 </constraints>
                                             </view>
-                                            <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6MI-BD-8i6">
+                                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6MI-BD-8i6">
                                                 <rect key="frame" x="0.0" y="232" width="100" height="100"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
@@ -67,11 +67,11 @@
                                     <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="hGt-dP-tXd">
                                         <rect key="frame" x="105.66666666666669" y="569" width="150" height="150"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figure.arms.open" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iMl-jX-uRN">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figure.arms.open" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iMl-jX-uRN">
                                                 <rect key="frame" x="0.0" y="0.0" width="67" height="150.33333333333334"/>
                                                 <color key="tintColor" systemColor="systemRedColor"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figure.walk" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kmC-mK-1PG">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figure.walk" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kmC-mK-1PG">
                                                 <rect key="frame" x="82.999999999999986" y="-0.3333333333333286" width="67.000000000000014" height="150.66666666666669"/>
                                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                             </imageView>
