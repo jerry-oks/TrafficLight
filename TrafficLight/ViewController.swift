@@ -7,13 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    enum State {
+final class ViewController: UIViewController {
+    private enum State {
         case red
         case yellow
         case green
         case off
     }
+    
+    private var state: State = .off
     
     @IBOutlet var redSignalView: UIView!
     @IBOutlet var yellowSignalView: UIView!
@@ -21,7 +23,6 @@ class ViewController: UIViewController {
     @IBOutlet var stopSignalView: UIImageView!
     @IBOutlet var goSignalView: UIImageView!
     @IBOutlet var startNextButton: UIButton!
-    var state: State = .off
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,18 +31,23 @@ class ViewController: UIViewController {
         greenSignalView.layer.cornerRadius = greenSignalView.frame.width / 2
         startNextButton.layer.cornerRadius = 4
     }
-
+    
+    private func resetTrafficLight() {
+        let signalViews = [
+            redSignalView,
+            yellowSignalView,
+            greenSignalView,
+            stopSignalView,
+            goSignalView
+        ]
+        
+        signalViews.forEach { $0?.alpha = 0.3 }
+    }
+    
     @IBAction func startNextButtonDidTap() {
         func turnOn(_ signalView: UIView) {
-            let signalViews = [
-                redSignalView,
-                yellowSignalView,
-                greenSignalView,
-                stopSignalView,
-                goSignalView
-            ]
-            
-            signalViews.forEach { $0?.alpha = 0.3 }
+            resetTrafficLight()
+
             signalView.alpha = 1
             
             if signalView == redSignalView {
