@@ -10,55 +10,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="z1I-Ln-rF2">
-            <objects>
-                <viewController id="er2-TZ-fzu" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gRz-r9-iP0">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="6Tr-St-2ct" userLabel="Car Traffic Light Stack View">
-                                <rect key="frame" x="16" y="75" width="361" height="727"/>
-                                <subviews>
-                                    <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iYp-sD-z6a">
-                                        <rect key="frame" x="64.666666666666686" y="0.0" width="231.66666666666663" height="231.66666666666666"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="iYp-sD-z6a" secondAttribute="height" id="uZe-QC-luZ"/>
-                                        </constraints>
-                                    </view>
-                                    <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gBY-Xw-dcG">
-                                        <rect key="frame" x="64.666666666666686" y="247.66666666666669" width="231.66666666666663" height="231.66666666666669"/>
-                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="gBY-Xw-dcG" secondAttribute="height" id="xxV-4s-tSG"/>
-                                        </constraints>
-                                    </view>
-                                    <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9J-cS-jud">
-                                        <rect key="frame" x="64.666666666666686" y="495.33333333333348" width="231.66666666666663" height="231.66666666666663"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="U9J-cS-jud" secondAttribute="height" id="8uP-9u-XMW"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Cfe-5y-nRK"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Cfe-5y-nRK" firstAttribute="trailing" secondItem="6Tr-St-2ct" secondAttribute="trailing" constant="16" id="5GW-ZO-vhc"/>
-                            <constraint firstItem="Cfe-5y-nRK" firstAttribute="bottom" secondItem="6Tr-St-2ct" secondAttribute="bottom" constant="16" id="Vi0-wu-Oa7"/>
-                            <constraint firstItem="6Tr-St-2ct" firstAttribute="leading" secondItem="Cfe-5y-nRK" secondAttribute="leading" constant="16" id="WLK-E6-y3j"/>
-                            <constraint firstItem="6Tr-St-2ct" firstAttribute="top" secondItem="Cfe-5y-nRK" secondAttribute="top" constant="16" id="cTt-P1-cyL"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j7e-hY-DDd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1155" y="4"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrafficLight" customModuleProvider="target" sceneMemberID="viewController">
@@ -118,7 +69,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZP-QT-40h">
-                                        <rect key="frame" x="130.66666666666663" y="679" width="100" height="40"/>
+                                        <rect key="frame" x="130.66666666666666" y="679" width="100" height="40"/>
                                         <color key="backgroundColor" name="AccentColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="rYA-Tl-Amd"/>
